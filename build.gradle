@@ -13,8 +13,8 @@ group = project.maven_group
 
 repositories {
     maven {
-        name = "Ladysnake Libs"
-        url = "https://ladysnake.jfrog.io/artifactory/mods"
+        name = "ladysnakeReleases"
+        url = "https://maven.ladysnake.org/releases"
     }
 
     maven {

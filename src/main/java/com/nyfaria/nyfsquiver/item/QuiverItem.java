@@ -144,6 +144,10 @@ public class QuiverItem extends TrinketItem implements TrinketRenderer {
 
         return this.model;
     }
+    public int getTotalSlots() {
+        // Calculate the total slots by multiplying row width by the number of rows.
+        return quiver.getRowWidth() * quiver.getNumberOfRows();
+    }
 
 
 }
